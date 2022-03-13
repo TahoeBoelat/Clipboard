@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Karla:wght@400;700&display=swap");
+
+/* Config */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+#container {
+  text-align: center;
+}
+
+/* Desktop style */
+.features-container,
+.app-prospect-container {
+  display: flex;
+}
+
+/* Mobile style */
