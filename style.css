@@ -12,7 +12,9 @@
 
 /* Desktop style */
 .features-container,
-.app-prospect-container {
+.app-prospect-container,
+.img-container,
+.footer-container{
   display: flex;
 }
 
