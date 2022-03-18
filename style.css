@@ -14,8 +14,57 @@
 .features-container,
 .app-prospect-container,
 .img-container,
-.footer-container{
+.button-container {
   display: flex;
+  justify-content:center;
 }
-
+/* First Section */
+#first-section,
+#second-section,
+#third-section,
+#fourth-section,
+#fifth-section,
+#sixth-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.img {
+  margin-top: 2rem;
+  margin-bottom: 50px;
+}
+.title {
+  font-size: 3em;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.button-container {
+}
+.btn-ios,
+.btn-android {
+  height: 40px;
+  width: 220px;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 18px;
+  padding-top: 12px;
+}
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+}
+.btn-android {
+  background-color: hsl(233, 100%, 69%);
+}
 /* Mobile style */
