@@ -9,14 +9,22 @@
 #container {
   text-align: center;
 }
-
+.card {
+  margin-top: 65px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
 /* Desktop style */
+body {
+  background-image: url(./Image/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
 .features-container,
 .app-prospect-container,
 .img-container,
 .button-container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 /* First Section */
 #first-section,
@@ -25,8 +33,8 @@
 #fourth-section,
 #fifth-section,
 #sixth-section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 150px;
+  margin-bottom: 180px;
 }
 .img {
   margin-top: 2rem;
@@ -66,5 +74,68 @@
 }
 .btn-android {
   background-color: hsl(233, 100%, 69%);
+}
+/* Section Two */
+.description-two {
+  text-indent: 20px;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-bottom: 5em;
+}
+.features-list-container {
+  margin-left: 75px;
+  margin-right: 25px;
+  margin-top: 50px;
+  text-align: left;
+}
+.sub-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.sub-description {
+  font-size: 18px;
+  font-weight: 400;
+}
+/* Section Third */
+.img-devices {
+  margin-top: 75px;
+}
+/* Section Fourth */
+.app-prospect-container {
+  align-items: center;
+}
+/* Section Fifth */
+/* Section Sixth */
+/* Footer */
+#footer-section {
+  padding: 35px;
+  background-color: rgb(230, 230, 230);
+}
+.footer-logo {
+  margin-left: 2em;
+  width: 48px;
+  height: 48px;
+}
+.footer-information {
+  margin-left: 20em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.information {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.socmed-container {
+  margin-left: 15em;
+}
+.socmed-icon {
+  margin-left: 15px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
 }
 /* Mobile style */
