@@ -139,3 +139,84 @@ body {
   align-items: center;
 }
 /* Mobile style */
+@media only screen and (min-width: 320px) and (max-width: 825px) {
+  body {
+    background-image: url(./Image/bg-header-mobile.png) no-repeat;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .description {
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    font-size: 18px;
+  }
+  .button-container,
+  .app-prospect-container,
+  .img-container,
+  .features-container,
+  .footer-container,
+  .footer-information {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-devices,
+  .img-computer {
+    width: 255px !important;
+  }
+  #first-section,
+  #second-section,
+  #third-section,
+  #fourth-section,
+  #fifth-section,
+  #sixth-section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  /* First Section */
+  .button-container {
+    margin-top: 55px;
+    align-items: center;
+  }
+  .btn-ios,
+  .btn-android {
+    width: 250px;
+    margin-top: 25px !important;
+  }
+  /* Second Section */
+  .description {
+    margin: 0;
+    padding: 0;
+  }
+  .description-two {
+    text-align: center;
+  }
+  .features-container {
+    align-items: center;
+    margin-top: 35px;
+  }
+  .features-list-container {
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+  }
+  /* Third Section */
+  /* Fourth Section */
+  /* Fifth Section */
+  /* Footer Section */
+  .footer-logo {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    margin: auto;
+  }
+  .footer-information,
+  .socmed-container {
+    margin: auto;
+  }
+  .footer-information {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
